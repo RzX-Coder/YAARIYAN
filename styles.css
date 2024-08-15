@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://i.postimg.cc/j5ZRm9qk/IMG-20240815-183557-837.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    width: 80%;
+    height:70vh;
+    max-width: 500px;
+    padding: 20px;
+    background: transparent ;
+    border-radius: 20px; color: #00FF00;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center; font-size: 3m;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.card-content {
+    animation: slideIn 2s ease-in-out;
+}
+
+h1 {
+    color: #FFCE44;
+    margin-bottom: 1px;
+}
+
+.container {
+    text-align: center;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+.hearts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heart {
+    font-size: 2em;
+    color: #FF00FF;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.heart:hover {
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.custom-alert {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.custom-alert-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-alert-content p {
+    color: cyan;
+    font-size: 1.2em;
+}
+
+.custom-alert-content button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff7f7f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.neonText {
+  color: #ff5733;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+/* Additional styling */
+  
+body {
+  font-size: 15px;
+  font-family: "Vibur", sans-serif;
+  background-color: #010a01;
+}  
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 50;
+}
+  
+h1 {
+    font-size: 4.2rem;
+}
+  
+h2 {
+    font-size: 1.8rem;
+}
+
+.container {
+  margin-top: 20vh;
+}
